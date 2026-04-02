@@ -1,3 +1,9 @@
+# Data
+yfinance==0.2.38
+pandas==2.2.2
+numpy==1.26.4
+requests==2.31.0
+
 # Web framework
 fastapi==0.111.0
 uvicorn==0.29.0
@@ -6,11 +12,6 @@ python-multipart==0.0.9
 # Config
 python-dotenv==1.0.1
 
-# Data
-yfinance==0.2.38
-pandas==2.2.2
-numpy==1.26.4
-requests==2.31.0
 
 # Scheduling
 schedule==1.2.1
