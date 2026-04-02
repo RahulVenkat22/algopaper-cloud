@@ -132,7 +132,7 @@ class MultiUserManager:
         secret = os.getenv("AUTH_SECRET", "change_this_to_random_string")
         raw_emails = os.getenv("ALLOWED_EMAILS", "")
         admin_email = os.getenv("ADMIN_EMAIL", "")
-
+        print(f"This is raw_emails: {raw_emails} and admin_email: {admin_email}")
         users = {}
         for email in [e.strip().lower() for e in raw_emails.split(",") if e.strip()]:
             role = Role.ADMIN if email == admin_email.lower() else Role.TRADER
