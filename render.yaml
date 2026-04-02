@@ -35,6 +35,7 @@ services:
         value: venkat.rahul.s1@gmail.com
         sync: false       # Your email — gets ADMIN role automatically
       - key: ALLOWED_EMAILS
+        value: venkat.rahul.s1@gmail.com,friend@gmail.com,partner@gmail.com
         sync: false       # Comma separated: you@gmail.com,partner@gmail.com
 
       # Telegram
