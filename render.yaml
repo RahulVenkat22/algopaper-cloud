@@ -2,9 +2,17 @@ services:
   - type: web
     name: algopaper-cloud
     env: python
-    buildCommand: pip install -r requirements.txt
+
+    buildCommand: |
+      pip install --upgrade pip setuptools wheel
+      pip install -r requirements.txt
+
     startCommand: python main.py
+    
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
       # Trading
       - key: WATCHLIST
         value: RELIANCE.NS,TCS.NS,HDFCBANK.NS,INFY.NS,ICICIBANK.NS
