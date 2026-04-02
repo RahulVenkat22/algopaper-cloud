@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: algopaper-cloud
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      # Trading
+      - key: WATCHLIST
+        value: RELIANCE.NS,TCS.NS,HDFCBANK.NS,INFY.NS,ICICIBANK.NS
+      - key: PAPER_CAPITAL
+        value: "100000"
+      - key: STOP_LOSS_PCT
+        value: "5.0"
+      - key: BUY_THRESHOLD
+        value: "3.0"
+      - key: SELL_THRESHOLD
+        value: "-3.0"
+      - key: MAX_POSITIONS
+        value: "5"
+
+      # Auth & Users (set these in Render dashboard)
+      - key: AUTH_SECRET
+        sync: false       # Set manually — any long random string
+      - key: ADMIN_EMAIL
+        sync: false       # Your email — gets ADMIN role automatically
+      - key: ALLOWED_EMAILS
+        sync: false       # Comma separated: you@gmail.com,partner@gmail.com
+
+      # Telegram
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_IDS
+        sync: false
+
+      # NewsAPI
+      - key: NEWS_API_KEY
+        sync: false
+
+      # Zerodha (optional — for live trading)
+      - key: ZERODHA_API_KEY
+        sync: false
+      - key: ZERODHA_API_SECRET
+        sync: false
+      - key: ZERODHA_ACCESS_TOKEN
+        sync: false

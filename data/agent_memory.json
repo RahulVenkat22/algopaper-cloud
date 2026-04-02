@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "created_at": "2026-03-31T13:38:08.355578",
+  "last_updated": "2026-03-31T13:38:08.365313",
+  "trade_memories": [
+    {
+      "id": "STOCK0.NS_20260331_133808",
+      "symbol": "STOCK0.NS",
+      "type": "BUY",
+      "date_opened": "2026-03-31T13:38:08.355620",
+      "date_closed": "2026-03-31T13:38:08.356297",
+      "entry_price": 1000,
+      "exit_price": 1100.0,
+      "pnl": 1000.0,
+      "pnl_pct": 10.0,
+      "outcome": "WIN",
+      "context": {
+        "score": 4.0,
+        "rsi": 35,
+        "sma20": null,
+        "sma50": null,
+        "news_sentiment": "POSITIVE",
+        "global_sentiment": "NEUTRAL",
+        "reasons": [],
+        "market_trend": "UNKNOWN",
+        "vix": null
+      },
+      "close_reason": "SIGNAL"
+    },
+    {
+      "id": "STOCK1.NS_20260331_133808",
+      "symbol": "STOCK1.NS",
+      "type": "BUY",
+      "date_opened": "2026-03-31T13:38:08.358153",
+      "date_closed": "2026-03-31T13:38:08.358769",
+      "entry_price": 1000,
+      "exit_price": 1100.0,
+      "pnl": 1000.0,
+      "pnl_pct": 10.0,
+      "outcome": "WIN",
+      "context": {
+        "score": 4.0,
+        "rsi": 36,
+        "sma20": null,
+        "sma50": null,
+        "news_sentiment": "POSITIVE",
+        "global_sentiment": "NEUTRAL",
+        "reasons": [],
+        "market_trend": "UNKNOWN",
+        "vix": null
+      },
+      "close_reason": "SIGNAL"
+    },
+    {
+      "id": "STOCK2.NS_20260331_133808",
+      "symbol": "STOCK2.NS",
+      "type": "BUY",
+      "date_opened": "2026-03-31T13:38:08.359881",
+      "date_closed": "2026-03-31T13:38:08.360465",
+      "entry_price": 1000,
+      "exit_price": 1100.0,
+      "pnl": 1000.0,
+      "pnl_pct": 10.0,
+      "outcome": "WIN",
+      "context": {
+        "score": 4.0,
+        "rsi": 37,
+        "sma20": null,
+        "sma50": null,
+        "news_sentiment": "POSITIVE",
+        "global_sentiment": "NEUTRAL",
+        "reasons": [],
+        "market_trend": "UNKNOWN",
+        "vix": null
+      },
+      "close_reason": "SIGNAL"
+    },
+    {
+      "id": "STOCK3.NS_20260331_133808",
+      "symbol": "STOCK3.NS",
+      "type": "BUY",
+      "date_opened": "2026-03-31T13:38:08.361735",
+      "date_closed": "2026-03-31T13:38:08.362496",
+      "entry_price": 1000,
+      "exit_price": 1100.0,
+      "pnl": 1000.0,
+      "pnl_pct": 10.0,
+      "outcome": "WIN",
+      "context": {
+        "score": 4.0,
+        "rsi": 38,
+        "sma20": null,
+        "sma50": null,
+        "news_sentiment": "POSITIVE",
+        "global_sentiment": "NEUTRAL",
+        "reasons": [],
+        "market_trend": "UNKNOWN",
+        "vix": null
+      },
+      "close_reason": "SIGNAL"
+    },
+    {
+      "id": "STOCK4.NS_20260331_133808",
+      "symbol": "STOCK4.NS",
+      "type": "BUY",
+      "date_opened": "2026-03-31T13:38:08.364290",
+      "date_closed": "2026-03-31T13:38:08.364827",
+      "entry_price": 1000,
+      "exit_price": 1100.0,
+      "pnl": 1000.0,
+      "pnl_pct": 10.0,
+      "outcome": "WIN",
+      "context": {
+        "score": 4.0,
+        "rsi": 39,
+        "sma20": null,
+        "sma50": null,
+        "news_sentiment": "POSITIVE",
+        "global_sentiment": "NEUTRAL",
+        "reasons": [],
+        "market_trend": "UNKNOWN",
+        "vix": null
+      },
+      "close_reason": "SIGNAL"
+    }
+  ],
+  "news_memories": [],
+  "pattern_library": {
+    "rsi_30_40": {
+      "description": "RSI in 30-40 range",
+      "trades": 5,
+      "wins": 5,
+      "losses": 0,
+      "total_pnl_pct": 50.0,
+      "avg_pnl_pct": 10.0,
+      "win_rate": 100.0,
+      "confidence": "LOW"
+    },
+    "news_POSITIVE_score_4": {
+      "description": "News=POSITIVE + Score\u22484",
+      "trades": 5,
+      "wins": 5,
+      "losses": 0,
+      "total_pnl_pct": 50.0,
+      "avg_pnl_pct": 10.0,
+      "win_rate": 100.0,
+      "confidence": "LOW"
+    },
+    "global_NEUTRAL": {
+      "description": "Global sentiment was NEUTRAL",
+      "trades": 5,
+      "wins": 5,
+      "losses": 0,
+      "total_pnl_pct": 50.0,
+      "avg_pnl_pct": 10.0,
+      "win_rate": 100.0,
+      "confidence": "LOW"
+    }
+  },
+  "mistake_log": [],
+  "rule_adjustments": [],
+  "learned_thresholds": {
+    "buy_score_min": 3.0,
+    "sell_score_max": -3.0,
+    "stop_loss_pct": 5.0,
+    "min_rsi_for_buy": 0,
+    "max_rsi_for_buy": 100,
+    "news_weight": 1.0,
+    "global_weight": 1.0
+  },
+  "stats": {
+    "total_trades_learned_from": 5,
+    "total_news_events_processed": 0,
+    "rules_written": 0,
+    "accuracy_history": [],
+    "best_pattern": "rsi_30_40",
+    "worst_pattern": "rsi_30_40"
+  }
+}

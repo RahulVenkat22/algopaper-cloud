@@ -1,0 +1,16 @@
+{
+  "secret": "test_secret_abcdef1234567890",
+  "users": {
+    "admin@test.com": {
+      "email": "admin@test.com",
+      "role": "ADMIN",
+      "active": true,
+      "added_at": "2026-03-31T13:38:39.287417",
+      "telegram_chat_id": null,
+      "last_login": "2026-03-31T13:38:39.293185",
+      "total_logins": 10
+    }
+  },
+  "max_sessions_per_user": 3,
+  "token_expiry_hours": 24
+}

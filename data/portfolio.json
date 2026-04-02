@@ -1,0 +1,78 @@
+{
+  "initial_capital": 100000.0,
+  "cash": 128300.0,
+  "positions": {},
+  "trade_history": [
+    {
+      "type": "BUY",
+      "symbol": "INTEGRITY0.NS",
+      "price": 1000.0,
+      "shares": 95,
+      "cost": 95000.0,
+      "score": 5.0,
+      "date": "2026-03-31T13:38:08.367906",
+      "reasons": []
+    },
+    {
+      "type": "SELL",
+      "symbol": "INTEGRITY0.NS",
+      "price": 1100.0,
+      "shares": 95,
+      "proceeds": 104500.0,
+      "pnl": 9500.0,
+      "reason": "SIGNAL",
+      "date": "2026-03-31T13:38:08.368288",
+      "entry_price": 1000.0,
+      "reasons": []
+    },
+    {
+      "type": "BUY",
+      "symbol": "INTEGRITY1.NS",
+      "price": 1100.0,
+      "shares": 94,
+      "cost": 103400.0,
+      "score": 5.0,
+      "date": "2026-03-31T13:38:08.368880",
+      "reasons": []
+    },
+    {
+      "type": "SELL",
+      "symbol": "INTEGRITY1.NS",
+      "price": 1200.0,
+      "shares": 94,
+      "proceeds": 112800.0,
+      "pnl": 9400.0,
+      "reason": "SIGNAL",
+      "date": "2026-03-31T13:38:08.369364",
+      "entry_price": 1100.0,
+      "reasons": []
+    },
+    {
+      "type": "BUY",
+      "symbol": "INTEGRITY2.NS",
+      "price": 1200.0,
+      "shares": 94,
+      "cost": 112800.0,
+      "score": 5.0,
+      "date": "2026-03-31T13:38:08.369753",
+      "reasons": []
+    },
+    {
+      "type": "SELL",
+      "symbol": "INTEGRITY2.NS",
+      "price": 1300.0,
+      "shares": 94,
+      "proceeds": 122200.0,
+      "pnl": 9400.0,
+      "reason": "SIGNAL",
+      "date": "2026-03-31T13:38:08.370058",
+      "entry_price": 1200.0,
+      "reasons": []
+    }
+  ],
+  "total_value": 128300.0,
+  "total_pnl": 28300.0,
+  "total_pnl_pct": 28.3,
+  "created_at": "2026-03-31T13:38:08.367872",
+  "last_updated": "2026-03-31T13:38:08.370067"
+}

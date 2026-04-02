@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ERR_20260331_133614_557155",
+    "category": "API_FAILURE",
+    "severity": "WARNING",
+    "message": "Test warning",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.557183",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133614_557595",
+    "category": "NETWORK",
+    "severity": "CRITICAL",
+    "message": "Test critical",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.557605",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133614_557935",
+    "category": "SCHEDULE",
+    "severity": "WARNING",
+    "message": "Circuit breaker opened for test_agent \u2014 skipping until recovery",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.557942",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133614_558339",
+    "category": "DATA_CORRUPT",
+    "severity": "WARNING",
+    "message": "Empty price data for TEST.NS",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.558345",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133614_558702",
+    "category": "DATA_CORRUPT",
+    "severity": "WARNING",
+    "message": "Insufficient price history for TEST.NS: 0 days (need 50+)",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.558708",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133614_558942",
+    "category": "DATA_CORRUPT",
+    "severity": "WARNING",
+    "message": "Invalid price for TEST.NS: \u20b90",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:36:14.558947",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133808_279661",
+    "category": "DATA_CORRUPT",
+    "severity": "WARNING",
+    "message": "Yahoo Finance: No data for TCS.NS. Using cache.",
+    "context": {
+      "symbol": "TCS.NS"
+    },
+    "traceback": null,
+    "timestamp": "2026-03-31T13:38:08.279701",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133808_281988",
+    "category": "RATE_LIMIT",
+    "severity": "WARNING",
+    "message": "NewsAPI daily quota exhausted. Switching to RSS-only mode.",
+    "context": {},
+    "traceback": null,
+    "timestamp": "2026-03-31T13:38:08.282009",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133808_284399",
+    "category": "BROKER",
+    "severity": "CRITICAL",
+    "message": "Zerodha access token expired. Switching to PAPER mode automatically.",
+    "context": {
+      "symbol": "TCS",
+      "shares": 10
+    },
+    "traceback": "NoneType: None\n",
+    "timestamp": "2026-03-31T13:38:08.284417",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  },
+  {
+    "id": "ERR_20260331_133808_285823",
+    "category": "MARKET_CLOSED",
+    "severity": "INFO",
+    "message": "Market is closed. Order queued for next session.",
+    "context": {
+      "symbol": "TCS",
+      "shares": 10
+    },
+    "traceback": null,
+    "timestamp": "2026-03-31T13:38:08.285847",
+    "resolved": false,
+    "resolution": null,
+    "retry_count": 0
+  }
+]

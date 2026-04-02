@@ -1,0 +1,63 @@
+{
+  "TCS.NS": {
+    "symbol": "TCS.NS",
+    "action": "INSUFFICIENT_DATA",
+    "score": 0
+  },
+  "RELIANCE.NS": {
+    "symbol": "RELIANCE.NS",
+    "action": "INSUFFICIENT_DATA",
+    "score": 0
+  },
+  "HDFCBANK.NS": {
+    "symbol": "HDFCBANK.NS",
+    "action": "BUY",
+    "score": 3.5,
+    "confidence": 43.75,
+    "latest_price": 3869,
+    "sma20": 3859.5,
+    "sma50": 3844.5,
+    "rsi": 16.05,
+    "news_sentiment": "NEUTRAL",
+    "global_sentiment": "NEUTRAL",
+    "reasons": [
+      "SMA20 above SMA50 (bullish trend)",
+      "RSI oversold (16.05) \u2014 potential bounce"
+    ],
+    "generated_at": "2026-03-31T13:37:11.361339"
+  },
+  "INFY.NS": {
+    "symbol": "INFY.NS",
+    "action": "BUY",
+    "score": 3.5,
+    "confidence": 43.75,
+    "latest_price": 3869,
+    "sma20": 3859.5,
+    "sma50": 3844.5,
+    "rsi": 16.05,
+    "news_sentiment": "NEUTRAL",
+    "global_sentiment": "NEUTRAL",
+    "reasons": [
+      "SMA20 above SMA50 (bullish trend)",
+      "RSI oversold (16.05) \u2014 potential bounce"
+    ],
+    "generated_at": "2026-03-31T13:37:11.362263"
+  },
+  "ICICIBANK.NS": {
+    "symbol": "ICICIBANK.NS",
+    "action": "BUY",
+    "score": 3.5,
+    "confidence": 43.75,
+    "latest_price": 3869,
+    "sma20": 3859.5,
+    "sma50": 3844.5,
+    "rsi": 16.05,
+    "news_sentiment": "NEUTRAL",
+    "global_sentiment": "NEUTRAL",
+    "reasons": [
+      "SMA20 above SMA50 (bullish trend)",
+      "RSI oversold (16.05) \u2014 potential bounce"
+    ],
+    "generated_at": "2026-03-31T13:37:11.363517"
+  }
+}

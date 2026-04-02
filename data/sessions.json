@@ -1,0 +1,26 @@
+{
+  "61d358e7de5cdcadc35d3dc259668700ada9ab3681318dc9179a962110d3ab1d": {
+    "email": "admin@test.com",
+    "role": "ADMIN",
+    "expires_at": "2026-04-01T13:38:39.292036",
+    "created_at": "2026-03-31T13:38:39.292038",
+    "last_active": "2026-03-31T13:38:39.292039",
+    "request_count": 0
+  },
+  "addabf7f55bee31defd21cb001d3d1c7f2ea0f472f56d6ff617e954bfcac5dfc": {
+    "email": "admin@test.com",
+    "role": "ADMIN",
+    "expires_at": "2026-04-01T13:38:39.292512",
+    "created_at": "2026-03-31T13:38:39.292515",
+    "last_active": "2026-03-31T13:38:39.292515",
+    "request_count": 0
+  },
+  "a1c919f833a8ea40449f0002f74833a4aeb4873be4f5d7efa5dedced7a6fdb56": {
+    "email": "admin@test.com",
+    "role": "ADMIN",
+    "expires_at": "2026-04-01T13:38:39.293177",
+    "created_at": "2026-03-31T13:38:39.293182",
+    "last_active": "2026-03-31T13:38:39.293183",
+    "request_count": 0
+  }
+}
