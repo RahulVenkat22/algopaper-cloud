@@ -29,8 +29,10 @@ services:
 
       # Auth & Users (set these in Render dashboard)
       - key: AUTH_SECRET
+        value: 2bicRQ06HxwOs9aMYBZ63MB5WXltVjlj
         sync: false       # Set manually — any long random string
       - key: ADMIN_EMAIL
+        value: venkat.rahul.s1@gmail.com
         sync: false       # Your email — gets ADMIN role automatically
       - key: ALLOWED_EMAILS
         sync: false       # Comma separated: you@gmail.com,partner@gmail.com
